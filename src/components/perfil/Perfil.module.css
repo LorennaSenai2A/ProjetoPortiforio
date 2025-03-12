@@ -1,0 +1,18 @@
+#perfil{
+    text-align: center;
+    padding: 26px;
+
+&  img{
+    width: 112px;
+    height: 112px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #9f5dcf95;
+    
+}
+& p{
+    margin-top: 8px;
+    font-weight: 500;
+    line-height: 24px;
+}
+}
