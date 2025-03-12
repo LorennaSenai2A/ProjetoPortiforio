@@ -9,6 +9,9 @@ import SocialLinks from "./components/socialLinks/SocialLinks";
 import Rodape from "./components/rodape/Rodape";
 import { useState } from "react";
 import Cards from "./components/cards/Cards";
+import projet1 from "./img/Pizzaria.jpg"
+import projet2 from "./img/CyberVision.jpg"
+import projet3 from "./img/BankWise.jpg"
 
 const App = () => {
   const [isLight, setIsLight] = useState(true);
@@ -50,26 +53,26 @@ const App = () => {
           </ul>
         </div> */}
         <div id="projetos">
-          <Cards Print={"https://placehold.co/100x75"} Titulo={"Projeto 1"} Link="https://github.com/" />
-          <Cards Print={"https://placehold.co/100x75"} Titulo={"Projeto 2"} Link="https://github.com/" />
-          <Cards Print={"https://placehold.co/100x75"} Titulo={"Projeto 3"} Link="https://github.com/" />
+          <Cards Print={projet1} Titulo={"Pizzaria"} Link="https://github.com/LorennaSenai2A/Pizzaria" />
+          <Cards Print={projet2} Titulo={"CyberVisual"} Link="https://www.figma.com/design/Q8WUrpon8qcl7qd4xVdy5W/Untitled?node-id=0-1&t=Hbr9GgLkubG2fiRO-1" />
+          <Cards Print={projet3} Titulo={"BankWise"} Link="https://www.figma.com/design/hk0XBCwqvkc5gpAnoF46yV/BankWise?node-id=0-1&t=7k5DfLx1UnRwHc0k-1" />
           {/* <Cards Print={"https://placehold.co/100x75"} Titulo={"Projeto 4"} Link="https://github.com/" /> */}
         </div>
 
         <div id="socialLinks">
-          <SocialLinks link={"https://github.com/"} icon={"logo-github"} />
+          <SocialLinks link={"https://github.com/LorennaSenai2A"} icon={"logo-github"} />
           <SocialLinks
-            link={"https://www.instagram.com/"}
+            link={"https://www.instagram.com/lorenazanon.dix/?next=%2F"}
             icon={"logo-instagram"}
           />
           <SocialLinks
-            link={"https://www.figma.com/login"}
-            icon={"logo-figma"}
+            link={"https://api.whatsapp.com/send/?phone=5514998128418&text&type=phone_number&app_absent=0"}
+            icon={"logo-whatsapp"}
           />
-          <SocialLinks
+         {/*} <SocialLinks
             link={"https://br.pinterest.com/"}
             icon={"logo-pinterest"}
-          />
+          /> */}
         </div>
         <Rodape>@ElLorennaXD</Rodape>
       </div>
