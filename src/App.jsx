@@ -21,7 +21,7 @@ const App = () => {
     <div id="App" className={isLight ? "light" : ""}>
       <div id="container">
         <Perfil fotoPerfil={isLight ? fotoLight : fotoDark}>
-          Prazer! Meu nome é Lorenna, tenho 16 anos e sou estudante de
+          Prazer! Meu nome é Lorenna, tenho 17 anos e sou estudante de
           Desenvolvimento de Sistemas no SENAI. Gosto de tecnologia e
           design, e estou sempre buscando aprender mais sobre esses assuntos.
           Atualmente estou estudando React!
@@ -51,9 +51,9 @@ const App = () => {
         </div> */}
         <div id="projetos">
           <Cards Print={"https://placehold.co/100x75"} Titulo={"Projeto 1"} Link="https://github.com/" />
-          <Cards Print={"https://placehold.co/100x75"} Titulo={"Projeto 1"} Link="https://github.com/" />
-          <Cards Print={"https://placehold.co/100x75"} Titulo={"Projeto 1"} Link="https://github.com/" />
-          <Cards Print={"https://placehold.co/100x75"} Titulo={"Projeto 1"} Link="https://github.com/" />
+          <Cards Print={"https://placehold.co/100x75"} Titulo={"Projeto 2"} Link="https://github.com/" />
+          <Cards Print={"https://placehold.co/100x75"} Titulo={"Projeto 3"} Link="https://github.com/" />
+          {/* <Cards Print={"https://placehold.co/100x75"} Titulo={"Projeto 4"} Link="https://github.com/" /> */}
         </div>
 
         <div id="socialLinks">
